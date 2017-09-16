@@ -25,6 +25,7 @@
             android:background="@color/borderLight" />
         <ImageView
             android:id="@+id/ivPic"
+            android:src="@drawable/leaderboard"
             android:layout_toRightOf="@+id/vSeperation"
             android:layout_width="80dp"
             android:layout_height="match_parent"

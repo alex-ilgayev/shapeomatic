@@ -102,6 +102,8 @@ public class EndGameActivity extends Activity {
                     return;
                 }
 
+                user.setUserCreated();
+                DAL.getInstance().putUser(mPrefs, GameActivity.PREF_TAG_USER, user);
                 Log.i(Settings.TAG, "User Was created successfully (Remote)");
             }
 

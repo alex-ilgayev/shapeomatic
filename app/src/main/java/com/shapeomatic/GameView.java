@@ -242,6 +242,7 @@ public class GameView extends View {
         mMainViews.add((this.getRootView()).findViewById(R.id.main1));
         mMainViews.add((this.getRootView()).findViewById(R.id.btnLeaderboard));
         mMainViews.add((this.getRootView()).findViewById(R.id.btnFacebookLogin));
+        mMainViews.add((this.getRootView()).findViewById(R.id.btnFacebookLogout));
 
         mViewsToColor = new ArrayList<>();
         mViewsToColor.add((this.getRootView()).findViewById(R.id.color1));

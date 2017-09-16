@@ -24,6 +24,12 @@ public interface IRestAPI {
     Call<User> getUserById(@Path("user-id") long userId);
 
     /**
+     * get all users from server.
+     */
+    @GET("user/")
+    Call<User[]> getUsers();
+
+    /**
      * creates a new user.
      * returns error if user already exists.
      * returns nothing

@@ -30,10 +30,18 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
 
-    <ListView
-        android:id="@+id/lvLeaderboard"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
-    </ListView>
+        <ProgressBar
+            android:id="@+id/pbLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <ListView
+            android:id="@+id/lvLeaderboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
 </LinearLayout>
