@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="borderVeryVeryLight">#fcc1f1</color>
+    <color name="borderVeryLight">#d280c3</color>
+    <color name="borderLight">#580048</color>
+    <color name="borderDark">#0c000e</color>
+
+    <color name="levelColor1">#580048</color>
+    <color name="levelColor2">#130058</color>
+    <color name="levelColor3">#580006</color>
+    <color name="levelColor4">#00584f</color>
+    <color name="levelColor5">#00580f</color>
+    <color name="levelColor6">#555800</color>
+    <color name="levelColor7">#003558</color>
+    <color name="levelColor8">#280058</color>
+    <color name="levelColor9">#582f00</color>
+    <color name="levelColor10">#200058</color>
+
+    <color name="colorLivesText">#ff0000</color>
+    <color name="colorScoreText">#fff000</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvRank"
+            android:layout_alignParentLeft="true"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@color/borderLight"
+            />
+        <View
+            android:id="@+id/vSeperation"
+            android:layout_width="2dp"
+            android:layout_toRightOf="@+id/tvRank"
+            android:layout_height="match_parent"
+            android:background="@color/borderLight" />
+        <ImageView
+            android:id="@+id/ivPic"
+            android:layout_toRightOf="@+id/vSeperation"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:padding="3dp"/>
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_toLeftOf="@+id/tvScore"
+            android:layout_toRightOf="@+id/ivPic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:gravity="left|center_vertical"
+            android:paddingTop="7dp"/>
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_alignParentRight="true"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/borderLight" />
+</LinearLayout>

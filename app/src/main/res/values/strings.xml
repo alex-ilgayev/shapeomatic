@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Shape\'o\'matic</string>
+    <string name="score">SCORE:</string>
+    <string name="restart">RESTART</string>
+    <string name="high_score">BEST:</string>
+    <string name="return_button">RETURN</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="exit_button">EXIT</string>
+    <string name="exit_label">EXIT Shape\'o\'matic \?</string>
+    <string name="start">START GAME</string>
+    <string name="share_title">Share via</string>
+    <string name="share_text">I just scored</string>
+    <string name="share_text_2"> points in Shape\'o\'matic app ! try to beat me !</string>
+    <string name="share_subject">Shape\'o\'matic App</string>
+    <string name="label_level">LVL</string>
+    <string name="leaderboard_title">Leaderboard</string>
+
+    <!--<string name="facebook_app_id">291952951152860</string>-->
+    <string name="facebook_app_id">295488767465945</string>
+
+    <string name="io_exception">Networking Error</string>
+
+
+</resources>

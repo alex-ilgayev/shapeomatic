@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "754332434203",
+    "project_id": "shapeomatic-7090d"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754332434203:android:2002236a35368144",
+        "android_client_info": {
+          "package_name": "com.shapeomatic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754332434203-a1em4e7ho0qsvanu7uo9r5v94i34auin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shapeomatic",
+            "certificate_hash": "65B63AA0EAE230A5C20AA3FB3E21CE725F1AEE15"
+          }
+        },
+        {
+          "client_id": "754332434203-ekckjmpuosj6vp1l17f80kro9k81m3u7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOedFEQtrtlRgxv0LwVNTDjxjiijrL1CQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
