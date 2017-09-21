@@ -28,8 +28,9 @@ public class Settings {
 //    public static final String BASE_PATH  = "http://10.0.2.2:35168/api/";
     //public static final String BASE_PATH  = "http://10.0.2.2/api/";
 //    public static final String BASE_PATH  = "http://192.168.42.20/api/";
-//    public static final String BASE_PATH = "http://10.0.2.2:8000/";
-    public static final String BASE_PATH = "https://shapeomatic.herokuapp.com/";
+    public static final String BASE_PATH = "http://10.0.2.2:8000/";
+//    public static final String BASE_PATH = "https://shapeomatic.herokuapp.com/";
+//    public static final String BASE_PATH = "http://10.0.0.1:8000/";
 
 //    public static final String URL_USER_PATH = BASE_PATH + "user/";
 

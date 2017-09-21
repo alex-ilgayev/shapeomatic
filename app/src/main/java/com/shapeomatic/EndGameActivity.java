@@ -124,7 +124,15 @@ public class EndGameActivity extends Activity {
             public void onResponse(Call<Void> call, Response<Void> response) {
                 if (response != null && !response.isSuccessful() && response.errorBody() != null) {
                     try {
-                        Log.e(Settings.TAG, "server internal error: " + response.errorBody().string());
+                        if(response.raw().code() == 404) { // user doesn't exists error.
+                            user.setUserNotCreated();
+                            DAL.getInstance().putUser(mPrefs, GameActivity.PREF_TAG_USER, user);
+                            Log.i(Settings.TAG, "tried to update the user but he is not created. (shouldn't happen)");
+
+                            createCurrentUserAtServer();
+                        }
+                        else
+                            Log.e(Settings.TAG, "server internal error: " + response.errorBody().string());
                     } catch (IOException e) {
                         e.printStackTrace();
                     }

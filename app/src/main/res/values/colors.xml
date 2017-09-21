@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <!--<color name="borderVeryVeryLight">#fcc1f1</color>-->
+    <!--<color name="borderVeryLight">#d280c3</color>-->
+    <!--<color name="borderLight">#580048</color>-->
+    <!--<color name="borderDark">#0c000e</color>-->
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="borderVeryVeryLight">#fcc1f1</color>
-    <color name="borderVeryLight">#d280c3</color>
-    <color name="borderLight">#580048</color>
-    <color name="borderDark">#0c000e</color>
+    <color name="borderVeryVeryLight">@color/color4</color>
+    <color name="borderVeryLight">@color/color3</color>
+    <color name="borderLight">@color/color2</color>
+    <color name="borderDark">@color/color1</color>
+
+    <color name="color1">#00A388</color>
+    <color name="color2">#79BD8F</color>
+    <color name="color3">#BEEB9F</color>
+    <color name="color4">#FFFF9D</color>
+    <color name="color5">#FF6138</color>
 
     <color name="levelColor1">#580048</color>
     <color name="levelColor2">#130058</color>

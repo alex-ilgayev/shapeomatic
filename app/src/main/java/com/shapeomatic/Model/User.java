@@ -97,6 +97,10 @@ public class User implements Serializable{
         isRemotelyCreated = true;
     }
 
+    public void setUserNotCreated() {
+        isRemotelyCreated = false;
+    }
+
     public boolean getIsFacebookSynced() {
         return isFacebookSynced;
     }
